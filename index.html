@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Corinthia&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+    <style>
+        ul li {
+            list-style: none;
+            font-size: 12pt;
+        }
+
+        *{
+            font-family: "The Nautigal",cursive;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="logo col-md-3 col-sm-12 p-3 m-0">
+                <img src="images/dog.png" alt="" width="90%" height="200px">
+            </div>
+            <div class="banner col-md-9 col-sm-12">
+                <img src="images/banner.png" alt="" width="100%">
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                </li>
+            </ul>
+            <form action="" class="form-inline my-2 my-lg-0">
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1">Đăng
+                    Nhập</button>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Đăng nhập</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <label for="" class="pt-1"> Tên đăng nhập</label>
+                                    </div>
+                                    <div>
+                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp">
+                                    </div>
+                                </div>
+                                <div class="row mt-2">
+
+                                    <div class="col-4">
+                                        <label for="" class="pt-1"> Mật khẩu</label>
+                                    </div>
+                                    <div>
+                                        <input type="password" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp">
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">hủy</button>
+                                <button type="button" class="btn btn-primary">đăng nhập</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-primary ml-2" data-toggle="modal" data-target="#exampleModal2">Đăng
+                    Kí</button><!-- Modal -->
+                <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Đăng kí</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <label for="" class="pt-1"> Tên đăng nhập</label>
+                                    </div>
+                                    <div>
+                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp">
+                                    </div>
+                                </div>
+                                <div class="row mt-2">
+
+                                    <div class="col-4">
+                                        <label for="" class="pt-1"> Mật khẩu</label>
+                                    </div>
+                                    <div>
+                                        <input type="password" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp">
+                                    </div>
+
+                                </div>
+                                <div class="row mt-2">
+                                    <div class="col-4">
+                                        <label for="" class="pt-1">Tên</label>
+                                    </div>
+                                    <div>
+                                        <input type="text" class="form-control" id="a" aria-describedby="emailHelp">
+                                    </div>
+                                </div>
+                                <div class="row mt-2">
+                                    <div class="col-4">
+                                        <label for="" class="pt-1">Số điện thoại</label>
+                                    </div>
+                                    <div>
+                                        <input type="number" class="form-control" id="d" aria-describedby="emailHelp">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">hủy</button>
+                                <button type="button" class="btn btn-primary">đăng kí</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </nav>
+    <div class="row mt-2 p-3">
+        <div class="col-2">
+            <h5>Phân loại</h5>
+            <ul>
+                <li style="color: lightblue;"> <i class="fas fa-spin fa-paw" ></i> Mèo tam thể </li>
+                <li style="color: lightcoral;"> <i class="fas fa-spin fa-cat" ></i>Mèo Aln </li>
+                <li style="color: lightsalmon;"> <i class="fas fa-spin fa-paw" ></i> Mèo Ald</li>
+                <li style="color: limegreen;"> <i class="fas fa-cat fa-spin" ></i>Mèo da nhăn </li>
+                <li style="color: mediumpurple;"> <i class="fas fa-paw fa-spin" ></i>Mèo Nga</li>
+            </ul>
+            <h5>Mức giá</h5>
+            <ul>
+                <li style="color: lightblue;"> <i class="far fa-spin fa-money-bill-wave-alt" ></i> Nhỏ hơn 1 triệu </li>
+                <li style="color: lightcoral;"> <i class="far fa-spin fa-money-bill-wave-alt" ></i>  1-2 triệu </li>
+                <li style="color: lightsalmon;"> <i class="far fa-spin fa-money-bill-wave-alt" ></i>  2-5 triệu </li>
+                <li style="color: limegreen;"> <i class="far fa-spin fa-money-bill-wave-alt" ></i> 5-10 triệu </li>
+                <li style="color: mediumpurple;"> <i class="far fa-spin fa-money-bill-wave-alt"></i> Lớn hơn 10 triệu </li>
+            </ul>
+        </div>
+        <div class="col-7 "></div>
+        <div class="col-3"></div>
+    </div>
+</body>
+
+</html>
