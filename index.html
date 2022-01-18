@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>dog shop</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Corinthia&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corinthia&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
@@ -22,24 +22,32 @@
     <style>
         ul li {
             list-style: none;
-            font-size: 12pt;
+            font-size: 13pt;
+            margin-bottom: 2px;
         }
 
-        *{
-            font-family: "The Nautigal",cursive;
+        * {
+            font-family: "The Nautigal", cursive;
         }
-        
+        .card img{
+            height: 200px;
+        }
+        .card{
+            -webkit-box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.75);
+        }
     </style>
 </head>
 
 <body>
     <div class="container-fluid">
         <div class="row">
-            <div class="logo col-md-3 col-sm-12 p-3 m-0">
-                <img src="images/dog.png" alt="" width="90%" height="200px">
+            <div class="logo col-md-3 col-sm-12 pr-2 m-0">
+                <img src="images/dog.png" alt="" width="95%" height="230px">
             </div>
             <div class="banner col-md-9 col-sm-12">
-                <img src="images/banner.png" alt="" width="100%">
+                <img src="images/banner.png" alt="" width="100%" >
             </div>
         </div>
     </div>
@@ -117,7 +125,7 @@
                         </div>
                     </div>
                 </div>
-                <button type="button" class="btn btn-primary ml-2" data-toggle="modal" data-target="#exampleModal2">Đăng
+                <button type="button" class="btn btn-success ml-2" data-toggle="modal" data-target="#exampleModal2">Đăng
                     Kí</button><!-- Modal -->
                 <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
                     aria-hidden="true">
@@ -178,27 +186,186 @@
             </form>
         </div>
     </nav>
-    <div class="row mt-2 p-3">
+    <div class="row mt-2 ml-4 p-3">
         <div class="col-2">
-            <h5>Phân loại</h5>
+            <h6 style="color:grey;opacity: 0.8;">Phân loại</h6>
             <ul>
-                <li style="color: lightblue;"> <i class="fas fa-spin fa-paw" ></i> Mèo tam thể </li>
-                <li style="color: lightcoral;"> <i class="fas fa-spin fa-cat" ></i>Mèo Aln </li>
-                <li style="color: lightsalmon;"> <i class="fas fa-spin fa-paw" ></i> Mèo Ald</li>
-                <li style="color: limegreen;"> <i class="fas fa-cat fa-spin" ></i>Mèo da nhăn </li>
-                <li style="color: mediumpurple;"> <i class="fas fa-paw fa-spin" ></i>Mèo Nga</li>
+                <li style="color: lightblue;"> <i class="fas fa-spin fa-paw"></i> Mèo tam thể </li>
+                <li style="color: lightcoral;"> <i class="fas fa-spin fa-cat"></i>Mèo Aln </li>
+                <li style="color: lightsalmon;"> <i class="fas fa-spin fa-paw"></i> Mèo Ald</li>
+                <li style="color: limegreen;"> <i class="fas fa-cat fa-spin"></i>Mèo da nhăn </li>
+                <li style="color: mediumpurple;"> <i class="fas fa-paw fa-spin"></i>Mèo Nga</li>
             </ul>
-            <h5>Mức giá</h5>
+            <h6 style="color:grey;opacity: 0.8;"> Mức giá</h6>
             <ul>
-                <li style="color: lightblue;"> <i class="far fa-spin fa-money-bill-wave-alt" ></i> Nhỏ hơn 1 triệu </li>
-                <li style="color: lightcoral;"> <i class="far fa-spin fa-money-bill-wave-alt" ></i>  1-2 triệu </li>
-                <li style="color: lightsalmon;"> <i class="far fa-spin fa-money-bill-wave-alt" ></i>  2-5 triệu </li>
-                <li style="color: limegreen;"> <i class="far fa-spin fa-money-bill-wave-alt" ></i> 5-10 triệu </li>
-                <li style="color: mediumpurple;"> <i class="far fa-spin fa-money-bill-wave-alt"></i> Lớn hơn 10 triệu </li>
+                <li style="color: lightblue;"> <i class="far fa-spin fa-money-bill-wave-alt"></i> Nhỏ hơn 1 triệu </li>
+                <li style="color: lightcoral;"> <i class="far fa-spin fa-money-bill-wave-alt"></i> 1-2 triệu </li>
+                <li style="color: lightsalmon;"> <i class="far fa-spin fa-money-bill-wave-alt"></i> 2-5 triệu </li>
+                <li style="color: limegreen;"> <i class="far fa-spin fa-money-bill-wave-alt"></i> 5-10 triệu </li>
+                <li style="color: mediumpurple;"> <i class="far fa-spin fa-money-bill-wave-alt"></i> Lớn hơn 10 triệu
+                </li>
             </ul>
         </div>
-        <div class="col-7 "></div>
-        <div class="col-3"></div>
+        <div class="col-7 ">
+            <div class="row">
+                <div class="col-12">
+                    <div id="carouselExampleCaptions"  class="carousel slide rounded" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                            <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/ca1.png" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>First slide label</h5>
+                                    <p>Some representative placeholder content for the first slide.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/ca2.jpeg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Second slide label</h5>
+                                    <p>Some representative placeholder content for the second slide.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/ca3.jpeg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Third slide label</h5>
+                                    <p>Some representative placeholder content for the third slide.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/ca4.jpeg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Third slide label</h5>
+                                    <p>Some representative placeholder content for the fourth slide.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4 mt-2">
+                    <div class="card" style="width: 100%;">
+                        <img src="images/1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4 mt-2">
+                    <div class="card" style="width: 100%;">
+                        <img src="images/2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4 mt-2">
+                    <div class="card" style="width: 100%;">
+                        <img src="images/3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4 mt-2">
+                    <div class="card" style="width: 100%;">
+                        <img src="images/4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4 mt-2">
+                    <div class="card" style="width: 100%;">
+                        <img src="images/5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4 mt-2">
+                    <div class="card" style="width: 100%;">
+                        <img src="images/6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4 mt-2">
+                    <div class="card" style="width: 100%;">
+                        <img src="images/7.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4 mt-2">
+                    <div class="card" style="width: 100%;">
+                        <img src="images/8.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4 mt-2">
+                    <div class="card" style="width: 100%;">
+                        <img src="images/9.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4 mt-2">
+                    <div class="card" style="width: 100%;">
+                        <img src="images/10.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+        <!--caroend-->
+        <div class="col-3">
+            <img src="images/IMG_0701.JPG" alt="" width="300px"> 
+        </div>
     </div>
 </body>
 
